@@ -2,10 +2,6 @@
 require_once 'config.php';
 require_once 'functions.php';
 
-if (!empty($_SESSION['user_id'])) {
-    redirect('index.php');
-}
-
 $errors = [];
 $firstName = '';
 $lastName = '';
